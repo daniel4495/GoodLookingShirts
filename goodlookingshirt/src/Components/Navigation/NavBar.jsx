@@ -6,7 +6,7 @@ return (
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="/logo.png" width="30" alt=""/>
+            <img src="/logo.png" width="50" alt=""/>
         </a>
         <a className="navbar-brand" href="#">GoodLooking Shirts</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
