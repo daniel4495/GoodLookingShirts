@@ -6,10 +6,11 @@ import ItemListContainer from './Components/ItemContainer/ItemListContainer.jsx'
 
 
 function App() {
+  const tittle = "Unisex shirts // Premium materials"
   return (
     <div className="App">
         <NavBar/>
-        <ItemListContainer/>
+        <ItemListContainer titulo={tittle}/>
     </div>
   );
 }
