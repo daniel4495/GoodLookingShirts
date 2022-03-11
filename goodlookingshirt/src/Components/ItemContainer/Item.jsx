@@ -1,13 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 import ItemCount from './ItemCount'
 
 const Item = ({card}) => {
-const [show, setShow]=useState(false)
 
-const verMas = () =>{
-    console.log(show)
-    setShow(!show)
-}
 const onAdd = () =>{
     console.log('agregué al carrito')
 }
